@@ -1,1 +1,145 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home</title>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="main.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+  <div class="container-fluid">
+
+        <header class="card text-bg-dark">
+  <img id="nav" src="images/pic1.jpg" class="card-img" alt="Picture">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Вулканы Камчатки</h5>
+    <p class="card-text">сеть природных парков</p></div>
+    </header>
+
+
+      <div class="sidenav">
+        <div class="nav_menu">
+        <a href="#nav"><img src="icons/menu.svg" alt="menu" width="30px" height="30px"></a></div>
+        <div class="nav_up">
+    <a href="#cards"><img src="icons/up.svg" alt="up" width="30px" height="30px"></a></div>
+        <div class="nav_down">
+        <a href="#goals"><img src="icons/down.svg" alt="down" width="30px" height="30px"></a></div>
+      </div>
+
+    <div class="navigation">
+      <nav class="navigation_nav">
+      <ul class="nav justify-content-center nav-tabs">
+  <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Главная</a></li>
+  <li class="nav-item"><a style="color: #f5dc78" class="nav-link" href="volunteering.html">Волонтерство</a></li>
+  <li class="nav-item"><a style="color: #f5dc78" class="nav-link" href="tourism.html">Туризм</a></li>
+
+  <li class="nav-item dropdown">
+    <a style="color: #f5dc78" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="our_parks.html" role="button" aria-expanded="false">Наши парки</a>
+    <ul class="dropdown-menu">
+      <li><a href="our_parks.html#park1">Природный парк «Налычево»</a></li>
+      <li><a href="our_parks.html#park2">Природный парк «Южно-Камчатский»</a></li>
+      <li><a href="our_parks.html#park3">Природный парк «Ключевской»</a></li>
+    </ul></li>
+
+  <li class="nav-item"><a style="color: #f5dc78" class="nav-link" href="contacts.html">Контакты</a></li>
+  <li class="nav-item"><a style="color: #f5dc78" class="nav-link" href="https://kamchatinfo.com" target="_blank">Новости</a></li>
+  <li class="nav-item"><a class="nav-link" href="https://www.unesco.org/ru"><img src="images/unesco.png" width="35px"></a></li>
+      </ul>
+      </nav>
+    </div>
+
+
+<div id="cards" class="container">
+  <h1 class="ptitle">О парке</h1>
+  <p>Самые известные вулканы Камчатки: Авачинский, Мутновский, Горелый, Толбачик и Ключевская сопка.</p>
+  <p>Термальные источники и крупнейшие ледники полуострова, дымящиеся фумаролы и застывшие лавовые поля, «мертвый» лес и альпийские луга, озёра и реки, каньоны и водопады, а еще — побережье Тихого океана.</p>
+  <p>Всё это — сеть природных парков «Вулканы Камчатки» — 4 особо охраняемые природные территории, на которых расположено 15 активных и более 100 потухших вулканов.</p>
+
+  <p><a href="images/unesco.png" target="_blank" style="width: 600px; height: 400px">
+    <img src="images/unesco.png" width="50px" class="unesco"></a>
+   Приезжайте увидеть объект всемирного наследия <a href="https://www.unesco.org/ru">ЮНЕСКО</a> в России!</p>
+
+ <br>
+  <p>«Вулканы Камчатки» — это вулканы для каждого. У нас интересно провести как 1 день, так и 2 недели. Вы можете подняться на вулкан или отдохнуть в термальных источниках. Пожить в палатке или остановиться в глэмпинге. Пройти пешком или долететь на вертолете. Приехать с детьми или родителями.</p>
+  <p>По нашей территории проложено 27 маршрутов, среди которых легко выбрать лучший по впечатлениям, физической нагрузке, бюджету и комфорту.</p>
+</div>
+
+
+<div class="container">
+  <h1 class="ptitle">Наши парки</h1></div>
+    <div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <a href="our_parks.html#park1"><img src="images/Налычево.jpeg" class="card-img-top" alt="pic"></a>
+  <div class="info-body">
+    <h5 class="info-title">Природный парк <br>«Налычево»</h5>
+    <p class="info-text">Символом природного парка «Налычево» являются «домашние» вулканы — Авачинский и Корякский.</p>
+    <a href="our_parks.html#park1" class="btn btn-primary">УЗНАТЬ БОЛЬШЕ</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <a href="our_parks.html#park2"><img src="images/Юж_Камч.jpeg" class="card-img-top" alt="pic"></a>
+  <div class="info-body">
+    <h5 class="info-title">Природный парк «Южно-Камчатский»</h5>
+    <p class="info-text">Главные достопримечательности парка «Южно-Камчатский» — вулканы Мутновский и Горелый.</p>
+    <a href="our_parks.html#park2" class="btn btn-primary">УЗНАТЬ БОЛЬШЕ</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <a href="our_parks.html#park3"><img src="images/pic7.jpg" class="card-img-top" alt="pic"></a>
+  <div class="info-body">
+    <h5 class="info-title">Природный парк «Ключевской»</h5>
+    <p class="info-text">Природный парк «Ключевской» — это место наиболее активного вулканизма на Камчатке и в мире.</p>
+    <a href="our_parks.html#park3" class="btn btn-primary">УЗНАТЬ БОЛЬШЕ</a>
+  </div></div>
+    </div>
+  </div>
+      </div>
+
+      <div id="goals" class="container">
+        <h1 class="ptitle">Наши цели и ценности </h1>
+        <p>Ключевые принципы развития территорий:</p>
+<ul>
+  <li>Развитие регулируемого туризма с соблюдением<ul type="square">
+    <li>баланса экологических</li>
+    <li>социальных </li>
+    <li> экономических интересов</li></ul></li>
+  <li>Безопасность на туристических маршрутах </li>
+  <li>Применение <a href="https://goo.su/0FsQe" target="_blank">«зеленых» технологий</a> и инновационных цифровых решений</li>
+</ul>
+      </div>
+
+
+      <footer class="card text-center">
+  <div class="card-body">
+    <p class="footer-text">8 (41531) 7-24-00</p>
+    <p class="footer-text">684000, г. Елизово, ул. Завойко, 33</p>
+    <p class="footer-text">priem@park-vulcany.ru</p>
+  </div>
+      </footer>
+
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
